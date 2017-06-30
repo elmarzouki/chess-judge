@@ -9,8 +9,8 @@ chess game Just by write your code in BotNumOne or BotNumTwo
 """
 import ChessJudge
 import BotNumOne, BotNumTwo
-BotNumOneObj = BotNumOne.BotNumOne()
-BotNumTwoObj = BotNumTwo.BotNumTwo()
+BotNumOneObj = BotNumOne.ChessBot()
+BotNumTwoObj = BotNumTwo.ChessBot()
 Judge = ChessJudge.ChessJudge(BotNumOneObj, BotNumTwoObj)
 Judge.SetBotOneName("Bot One")
 Judge.SetBotTwoName("Bot Two")
